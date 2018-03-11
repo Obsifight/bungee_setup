@@ -1,0 +1,2 @@
+Welcome {PLAYER} on {SERVER} server
+This server use AuthMe protection!
