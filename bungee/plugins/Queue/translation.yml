@@ -1,0 +1,16 @@
+# Call to notify player when he join a queue
+addQueue: 'Vous avez été ajouté a la file d''attente à la position '
+# Call to notify player's place in current queue
+notifyPlace: 'Vous êtes désormais '
+# Call when player is kicked for keep reserved slot
+kick: Nous sommes désolé mais un joueur vip a pris votre place
+# Call to notify player when he leave a queue
+leaveQueue: 'Vous avez quitté la file d''attente '
+# Call when player try to leave a queue when hes not in queue.
+leaveQueueFail: 'Vous n''êtes pas dans une file d''attente '
+# Call when player try to add vip with no arg
+badarg: 'Wrong argument try : addvip <player> [server]  (no server = proxy)'
+# Call when player add a vip player
+addvip: Player have been correctly add to vip list.
+# Call when player add a vip player in a server and the server doesnt exist
+wrongServerName: The server name that you used doesnt exist

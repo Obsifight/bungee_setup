@@ -1,0 +1,34 @@
+#This config controls the device that toggles players on/off.
+# Materials: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+#Enable the player toggler?
+enabled: 'true'
+
+#Which slot should it be put in?
+slot: 2
+
+#Message when spamming
+spamMessage: '&4&lVous devez attendre 5 secondes.'
+
+#Minimum time between usage(in seconds)
+cooldown: 5
+
+#Toggle Off Information
+'off':
+  type: 'STAINED_CLAY:14'
+  displayName: '&aJoueurs Invisibles'
+  message: '&aTous les joueurs sont désormais visibles'
+'on':
+  type: 'STAINED_CLAY:5'
+  displayName: '&aJoueurs Visibles'
+  message: '&aTous les joueurs sont désormais cachés'
+     
+#What sound to play when toggling players?
+# http://jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
+# Disable with 'none'
+sound: 'LEVEL_UP'
+
+#Which effect to play when toggling players? Plays at location of each player.
+# http://jd.bukkit.org/rb/apidocs/org/bukkit/Effect.html
+# Disable with 'none'
+effect: 'MOBSPAWNER_FLAMES'

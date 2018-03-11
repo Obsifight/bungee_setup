@@ -1,0 +1,60 @@
+groups:
+  ThisIsMac:
+  - admin
+disabled_commands:
+- disabledcommandhere
+player_limit: 600
+stats: 1e42ef7b-7aa0-499a-8931-4fa2bb9eceb7
+permissions:
+  default:
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.server
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+listeners:
+- max_players: 600
+  fallback_server: auth
+  host: 5.39.69.193:25565
+  bind_local_address: true
+  ping_passthrough: false
+  tab_list: SERVER
+  default_server: auth
+  forced_hosts:
+    pvp.md-5.net: pvp
+  tab_size: 80
+  force_default_server: true
+  motd: '&cStarblast modafuka'
+  query_enabled: false
+  query_port: 25577
+timeout: 30000
+connection_throttle: 0
+servers:
+  auth:
+    motd: 'Auth'
+    address: localhost:20000
+    restricted: false
+  hub:
+    motd: 'Master Hub'
+    address: localhost:1
+    restricted: false
+  hub_1:
+    motd: 'Hub1'
+    address: localhost:20001
+    restricted: false
+  hub_2:
+    motd: 'Hub2'
+    address: localhost:20002
+    restricted: false
+  hub_3:
+    motd: 'Hub3'
+    address: localhost:20003
+    restricted: false
+  factions:
+    motd: 'Factions'
+    address: mc.starblast.fr:25566
+    restricted: false
+ip_forward: true
+online_mode: false

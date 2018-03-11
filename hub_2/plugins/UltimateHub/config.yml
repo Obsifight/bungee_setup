@@ -1,0 +1,32 @@
+prefix: '&6[&4Hub&6]&f'
+clearInvOnJoin: 'true'
+autoUpdate: 'false'
+spawn:
+  tpOnJoin: 'true'
+  command: 'true'
+  world: world
+  x: '-633'
+  y: '51'
+  z: '-417'
+  pitch: '0'
+  yaw: '0'
+disableBlockBreaking: 'true'
+disableItemDropping: 'true'
+disableInvItemMovement: 'true'
+welcomeMessage:
+  enabled: 'false'
+  message: '&c%player% &ahas joined the server for the first time! Say hello!'
+joinMessage:
+  enabled: 'false'
+  message: '&aHey &c%player%&a! This is the message everyone sees when someone joins.'
+leaveMessage:
+  enabled: 'false'
+  message: '&aHey &c%player%&a! This is the message everyone sees when someone leaves.'
+motd:
+  enabled: 'false'
+  message:
+  - '&a&m==================='
+  - '&4Welcome to MyServer, &c%player%&4!'
+  - '&6We are running UltimateHub by &ckyledag500!'
+  - '&aWe now have prison!'
+  - '&a&m==================='

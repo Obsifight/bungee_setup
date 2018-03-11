@@ -1,0 +1,19 @@
+# Time to refresh all server (players) in SECONDS
+refreshTime: 2
+# interval between each backup from the list of reserved slot in MINUTES
+saveIntervalTime: 5
+# Name of server whithout queue
+withoutQueue:
+- auth
+- hub
+- hub_1
+- hub_2
+- hub_3
+# Number of slots reserved in each server
+reservedSlot: 15
+# Kick player for keep reserved slot in each server
+kickForVip: false
+# Use permission instead of data.yml
+permissionsMode: false
+# Prefix when the plugin send message to player
+prefix: Attente
