@@ -1,0 +1,55 @@
+#A list of Materials for bukkit can be found here:
+# http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+#Should the server selector be enabled?
+enabled: 'true'
+
+#What should the menu say at the top?
+menuTitle: '&4Sélectionner un serveur'
+
+#How many slots should the menu be? INCRAMENTS OF 9
+menuSize: '9'
+
+#What slot should the item be added in the inventory when joining?
+giveSlot: '1'
+
+#List of items. (Just random names)
+items:
+- '1'
+- '2'
+
+#What does the selector item look like?
+selector:
+  type: COMPASS:0
+  displayName: '&4Choissisez un serveur'
+
+#Items. Use one of these for each item in the list above.
+#EXAMPLE:
+#type: Use Bukkit item name. Then use a ":", followed by the damage value(0 for normal)
+#function: 1 = Bungee server | 2 = COmmand
+#slot: Slot in the menu it should be added in. (1st slot is '0')
+#amount: Amount in stack
+#glow: True/False. Should it have a glow effect?
+#displayname: What is the name of the item?
+#lore: The description for the item(below the name when hovering).
+#value: For Bungee, server name. For command, command
+#message: What will the server tell them when they are TP'd?
+#
+'1':
+  type: DIAMOND_SWORD:0
+  function: 1
+  slot: '1'
+  amount: '1'
+  glow: 'false'
+  displayName: '&aFactions'
+  value: factions
+  message: '&a Vous allez être téléporté vers le serveur factions.'
+'2':
+  type: IRON_FENCE:0
+  function: 2
+  slot: '2'
+  amount: '1'
+  glow: 'false'
+  displayName: '&aBientôt ...'
+  value: ''
+  message: '&a Bientôt :)'
